@@ -7,6 +7,6 @@ router.get('/health-check', (req, res) =>
   res.send('OK')
 )
 
-router.use('/createNFT', nftRoutes)
+router.use('/nft', nftRoutes)
 
 module.exports = router;

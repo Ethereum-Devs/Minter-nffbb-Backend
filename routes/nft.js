@@ -4,6 +4,6 @@ const router = express.Router()
 
 const nftCtrl = require('../controllers/nft.js')
 
-router.post('/', nftCtrl.create)
+router.post('/create', nftCtrl.create)
 
 module.exports = router
